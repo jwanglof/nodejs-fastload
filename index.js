@@ -1,5 +1,5 @@
 var request = require("request"),
-	gm = require("gm"),
+	gm = require("gm").subClass({ imageMagick: true }),
 	fs = require("fs");
 
 // Prefix of URL
